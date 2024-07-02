@@ -1,0 +1,36 @@
+.lista-menu {
+    display: none;
+  }
+  .container__botao:checked ~ .lista-menu {
+    display: block;
+  }
+  .cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+  .lista-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+  }
+  .container__botao {
+    display: none;
+  }
+  <section class="banner">
+  <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+  <p class="banner__texto">
+    Encontre em nossa estante o que precisa para seu desenvolvimento!
+  </p>
+  <input
+    type="search"
+    class="banner__pesquisa"
+    placeholder="Qual será sua próxima leitura?"
+  />
+</section>

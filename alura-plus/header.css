@@ -1,3 +1,6 @@
+@media screen and (min-width: 1024px) {
+  /* Estilos para tablets */
+}
 .lista-menu {
     display: none;
   }
@@ -34,3 +37,111 @@
     placeholder="Qual será sua próxima leitura?"
   />
 </section>
+@media screen and (min-width: 1024px) {
+  .container__titulo,
+  .container__titulo--negrito {
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+  }
+}.container__titulo {
+  font-weight: 400;
+}
+
+.container__titulo--negrito {
+  font-weight: 700;
+}@media screen and (min-width: 1024px) {
+  .container__titulo,
+  .container__titulo--negrito {
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+  }
+
+  .container__titulo {
+    font-weight: 400;
+  }
+
+  .container__titulo--negrito {
+    font-weight: 700;
+  }
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .container__titulo {
+    font-weight: 400;
+    display: block;
+  }
+}.container__titulo {
+  display: none;
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções {
+    display: flex;
+  }
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_item {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções__link {
+    text-decoration: none;
+    color: var(--preto);
+  }
+}.opções {
+  display: none;
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .container__imagem-transparente {
+    display: none;
+  }
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .cabeçalho__menu-hamburguer {
+    display: none;
+  }
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_botão:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+
+  /* Código omitido */
+}@media screen and (min-width: 1024px) {
+  /* Código omitido */
+
+  .opções_botão {
+    display: none;
+  }
+
+  /* Código omitido */
+}@media screen and (min-width: 1728px) {
+}@media screen and (min-width: 1728px) {
+  .container__link {
+    display: flex;
+    align-items: center;
+  }
+}@media screen and (min-width: 1728px) {
+  .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--preto);
+  }
+}@media screen and (min-width: 1728px) {
+  /* Código omitido */
+
+  .opcoes {
+    margin-right: auto;
+  }
+}.container__texto {
+  display: none;
+}

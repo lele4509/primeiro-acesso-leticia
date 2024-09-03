@@ -68,4 +68,21 @@
       <h2>Já sabe por onde começar?</h2>
       <p>Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
     </section>
+    @media screen and (min-width: 1024px) {
+    }@media screen and (min-width: 1024px) {
+      .banner__titulo {
+        font-size: 36px;
+      }
+    }@media screen and (min-width: 1024px) {
+      .banner__titulo {
+        font-size: 36px;
+      }
     
+      .banner__pesquisa {
+        width: 50%;
+      }
+    
+      .banner__pesquisa::placeholder {
+        background-position: 7em;
+      }
+    }
